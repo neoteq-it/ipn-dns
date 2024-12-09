@@ -17,7 +17,6 @@ FROM cgr.dev/chainguard/static:latest
 ENV HOME /root
 
 COPY --from=build /work/dns /dns
-COPY ./Corefile /Corefile
 
 ENTRYPOINT ["/dns"]
 CMD []
