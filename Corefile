@@ -1,11 +1,11 @@
-ipn.willnorris.net {
+ipn.neoteq.be {
   hosts {
     # some resolvers will recheck the entries for DNS glue records at the delegate nameserver.
     # Manually specify these hosts, since they won't appear in the Tailscale node list.
-    37.16.12.98 ns1.ipn.willnorris.net ns2.ipn.willnorris.net
+    37.16.12.98 ns1.ipn.neoteq.be ns2.ipn.neoteq.be
     fallthrough
   }
-  tailscale ipn.willnorris.net {
+  tailscale ipn.neoteq.be {
     authkey {$TS_AUTHKEY}
   }
   log
