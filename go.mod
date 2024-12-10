@@ -6,6 +6,7 @@ toolchain go1.23.4
 
 require (
 	github.com/coredns/coredns v1.12.0
+	github.com/coredns/records v0.0.0-20230310133434-a3157e710d9e
 	github.com/damomurf/coredns-tailscale v0.3.11
 )
 
@@ -53,6 +54,7 @@ require (
 	github.com/aws/smithy-go v1.22.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bits-and-blooms/bitset v1.13.0 // indirect
+	github.com/caddyserver/caddy v1.0.5 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/coder/websocket v1.8.12 // indirect
 	github.com/coredns/caddy v1.1.2-0.20241029205200-8de985351a98 // indirect
