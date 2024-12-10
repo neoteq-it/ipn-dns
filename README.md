@@ -1,3 +1,3 @@
 # ipn-dns
 
-ipn.neoteq.be CoreDNS Server
+ipn.neoteq.be CoreDNS Server 
