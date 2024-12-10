@@ -1,12 +1,12 @@
-module github.com/willnorris/ipn-dns
+module github.com/stickelmann/ipn-dns
 
-go 1.23.1
+go 1.23.2
 
 toolchain go1.23.4
 
 require (
 	github.com/coredns/coredns v1.12.0
-	github.com/damomurf/coredns-tailscale v0.3.6-0.20240404225241-98dc7fc48622
+	github.com/damomurf/coredns-tailscale v0.3.11
 )
 
 require (
@@ -144,7 +144,7 @@ require (
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.60.1 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
-	github.com/quic-go/quic-go v0.48.1 // indirect
+	github.com/quic-go/quic-go v0.48.2 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
 	github.com/safchain/ethtool v0.3.0 // indirect
 	github.com/secure-systems-lab/go-securesystemslib v0.7.0 // indirect

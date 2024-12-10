@@ -5,6 +5,7 @@ import (
 	_ "github.com/coredns/coredns/core/plugin"
 	"github.com/coredns/coredns/coremain"
 	_ "github.com/damomurf/coredns-tailscale"
+	_ "github.com/coredns/records"
 )
 
 func main() {
