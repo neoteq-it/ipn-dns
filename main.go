@@ -9,10 +9,19 @@ import (
 )
 
 func main() {
+	for i, directive := range dnsserver.Directives {
+		if directive == "forward" {
+			dnsserver.Directives = append(dnsserver.Directives[:i], dnsserver.Directives[i+1:]...)
+			break
+		}
+	}
 
 	// Fügen Sie Ihre benutzerdefinierten Plugins hinzu
 	dnsserver.Directives = append(dnsserver.Directives, "tailscale")
+	dnsserver.Directives = append(dnsserver.Directives, "records")
 	dnsserver.Directives = append(dnsserver.Directives, "neoteqts4via6")
+
+	dnsserver.Directives = append(dnsserver.Directives, "forward")
 
 	coremain.Run()
 }
