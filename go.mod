@@ -6,7 +6,7 @@ require (
 	github.com/coredns/coredns v1.12.0
 	github.com/coredns/records v0.0.0-20230310133434-a3157e710d9e
 	github.com/damomurf/coredns-tailscale v0.3.11
-	github.com/neoteq-it/neoteqts4via6 v0.0.0-20250210111045-2bc298e06a71
+	github.com/neoteq-it/neoteqts4via6 v0.0.0-20250210120423-70bf7636ff1b
 )
 
 require (
