@@ -467,8 +467,8 @@ github.com/namedotcom/go v0.0.0-20180403034216-08470befbe04/go.mod h1:5sN+Lt1CaY
 github.com/naoina/go-stringutil v0.1.0/go.mod h1:XJ2SJL9jCtBh+P9q5btrd/Ylo8XwT/h1USek5+NqSA0=
 github.com/naoina/toml v0.1.1/go.mod h1:NBIhNtsFMo3G2szEBne+bO4gS192HuIYRqfvOWb4i1E=
 github.com/nbio/st v0.0.0-20140626010706-e9e8d9816f32/go.mod h1:9wM+0iRr9ahx58uYLpLIr5fm8diHn0JbqRycJi6w0Ms=
-github.com/neoteq-it/neoteqts4via6 v0.0.0-20250210171511-6392049a9073 h1:CIoeCCmtAiYOugYPI8mmDJblMjL9tyiw+zRjWBskI5E=
-github.com/neoteq-it/neoteqts4via6 v0.0.0-20250210171511-6392049a9073/go.mod h1:/IvmEPxxwb1zkSCxfzQyPfQ+2fVBcAbnnqSWo0kCfdg=
+github.com/neoteq-it/neoteqts4via6 v0.0.0-20250210173352-3cdc07a601d6 h1:iCEQqHwmEuiV1/Jx407v41Y5jdTzSTxWAxP1OFZEd+Y=
+github.com/neoteq-it/neoteqts4via6 v0.0.0-20250210173352-3cdc07a601d6/go.mod h1:/IvmEPxxwb1zkSCxfzQyPfQ+2fVBcAbnnqSWo0kCfdg=
 github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 h1:zYyBkD/k9seD2A7fsi6Oo2LfFZAehjjQMERAvZLEDnQ=
 github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646/go.mod h1:jpp1/29i3P1S/RLdc7JQKbRpFeM1dOBd8T9ki5s+AY8=
 github.com/nrdcg/auroradns v1.0.0/go.mod h1:6JPXKzIRzZzMqtTDgueIhTi6rFf1QvYE/HzqidhOhjw=
