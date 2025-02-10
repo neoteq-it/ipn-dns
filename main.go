@@ -12,5 +12,6 @@ import (
 func main() {
 	dnsserver.Directives = append(dnsserver.Directives, "tailscale")
 	dnsserver.Directives = append(dnsserver.Directives, "records")
+	dnsserver.Directives = append(dnsserver.Directives, "neoteqts4via6")
 	coremain.Run()
 }
