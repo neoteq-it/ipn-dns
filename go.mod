@@ -1,13 +1,12 @@
 module github.com/stickelmann/ipn-dns
 
-go 1.23.2
-
-toolchain go1.23.4
+go 1.23.4
 
 require (
 	github.com/coredns/coredns v1.12.0
 	github.com/coredns/records v0.0.0-20230310133434-a3157e710d9e
 	github.com/damomurf/coredns-tailscale v0.3.11
+	github.com/neoteq-it/neoteqts4via6 v0.0.0-20250210111045-2bc298e06a71
 )
 
 require (
@@ -123,7 +122,7 @@ require (
 	github.com/mdlayher/netlink v1.7.2 // indirect
 	github.com/mdlayher/sdnotify v1.0.0 // indirect
 	github.com/mdlayher/socket v0.5.0 // indirect
-	github.com/miekg/dns v1.1.62 // indirect
+	github.com/miekg/dns v1.1.63 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/go-ps v1.0.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
