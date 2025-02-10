@@ -10,8 +10,22 @@ import (
 )
 
 func main() {
-	dnsserver.Directives = append(dnsserver.Directives, "tailscale")
-	dnsserver.Directives = append(dnsserver.Directives, "records")
-	dnsserver.Directives = append(dnsserver.Directives, "neoteqts4via6")
-	coremain.Run()
+    // Entfernen Sie "any" aus der vordefinierten Liste, falls es bereits vorhanden ist
+    for i, directive := range dnsserver.Directives {
+        if directive == "any" {
+            dnsserver.Directives = append(dnsserver.Directives[:i], dnsserver.Directives[i+1:]...)
+            break
+        }
+    }
+
+    // Fügen Sie Ihre benutzerdefinierten Plugins hinzu
+    dnsserver.Directives = append(dnsserver.Directives, "tailscale")
+    dnsserver.Directives = append(dnsserver.Directives, "records")
+    dnsserver.Directives = append(dnsserver.Directives, "neoteqts4via6")
+
+    // Fügen Sie "any" als letztes Plugin hinzu
+    dnsserver.Directives = append(dnsserver.Directives, "any")
+
+    coremain.Run()
 }
+
