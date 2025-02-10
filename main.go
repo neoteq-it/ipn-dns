@@ -18,7 +18,6 @@ func main() {
 
 	// Fügen Sie Ihre benutzerdefinierten Plugins hinzu
 	dnsserver.Directives = append(dnsserver.Directives, "tailscale")
-	dnsserver.Directives = append(dnsserver.Directives, "records")
 	dnsserver.Directives = append(dnsserver.Directives, "neoteqts4via6")
 
 	dnsserver.Directives = append(dnsserver.Directives, "forward")
