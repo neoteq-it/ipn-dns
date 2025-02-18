@@ -1,4 +1,4 @@
-module github.com/stickelmann/ipn-dns
+module github.com/neoteq-it/ipn-dns
 
 go 1.23.6
 
