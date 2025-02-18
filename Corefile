@@ -2,8 +2,8 @@ ipn.neoteq.be {
   log
   errors
   template IN NS ipn.neoteq.be {
-    answer "ipn.neoteq.be. 3600 IN NS deaz-cdns.neoteq.be."
-    answer "ipn.neoteq.be. 3600 IN NS fihz-cdns.neoteq.be."
+    answer "ipn.neoteq.be. 3600 IN NS ns1.neoteq.be."
+    answer "ipn.neoteq.be. 3600 IN NS ns2.neoteq.be."
     fallthrough
   }
   template IN CAA ipn.neoteq.be {
