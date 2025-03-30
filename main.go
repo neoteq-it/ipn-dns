@@ -8,19 +8,20 @@ import (
 	_ "github.com/neoteq-it/neoteqts4via6"
 )
 
+var directives = []string{
+	"log",
+	"errors",
+	"template",
+	"azure",
+	"tailscale",
+	"neoteqts4via6",
+	"forward",
+}
+
+func init() {
+	dnsserver.Directives = directives
+}
+
 func main() {
-	for i, directive := range dnsserver.Directives {
-		if directive == "forward" {
-			dnsserver.Directives = append(dnsserver.Directives[:i], dnsserver.Directives[i+1:]...)
-			break
-		}
-	}
-
-	// Fügen Sie Ihre benutzerdefinierten Plugins hinzu
-	dnsserver.Directives = append(dnsserver.Directives, "tailscale")
-	dnsserver.Directives = append(dnsserver.Directives, "neoteqts4via6")
-
-	dnsserver.Directives = append(dnsserver.Directives, "forward")
-
 	coremain.Run()
 }
