@@ -1,6 +1,9 @@
 ipn.neoteq.be {
   log
   errors
+  template IN SOA ipn.neoteq.be {
+    answer "{{ .Zone }} 60 IN SOA ns1.neoteq.be info.neoteq.be (1 3600 300 3600 60)"
+  }
   template IN NS ipn.neoteq.be {
     answer "ipn.neoteq.be. 3600 IN NS ns1.neoteq.be."
     answer "ipn.neoteq.be. 3600 IN NS ns2.neoteq.be."
