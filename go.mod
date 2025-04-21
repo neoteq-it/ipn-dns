@@ -1,6 +1,7 @@
 module github.com/neoteq-it/ipn-dns
 
-go 1.23.6
+go 1.24.2
+
 require (
 	github.com/coredns/coredns v1.12.1
 	github.com/damomurf/coredns-tailscale v0.3.14
