@@ -4,7 +4,7 @@ go 1.23.6
 require (
 	github.com/coredns/coredns v1.12.1
 	github.com/damomurf/coredns-tailscale v0.3.14
-	github.com/neoteq-it/neoteqts4via6 v1.0.1
+	github.com/neoteq-it/neoteqts4via6 v1.0.2
 )
 
 require (
