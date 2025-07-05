@@ -13,13 +13,6 @@ ipn.neoteq.be {
     answer "ipn.neoteq.be. CAA 0 issue letsencrypt.org"
     fallthrough
   }
-  template IN A ipn.neoteq.be {
-    answer "{{ .Name }} 60 IN A 192.0.2.123"
-  }
-
-  template IN AAAA ipn.neoteq.be {
-    answer "{{ .Name }} 60 IN AAAA 2001:db8::123"
-  }
   azure STMN-Netzwerk:ipn.neoteq.be {
     tenant {$AZ_TENANT}
     client {$AZ_CLIENT}
