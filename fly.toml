@@ -16,3 +16,10 @@ primary_region = 'ams'
 
   [[services.ports]]
     port = 53
+
+[[services]]
+  protocol = "tcp"
+  internal_port = 53
+
+  [[services.ports]]
+    port = 53
