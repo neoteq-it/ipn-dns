@@ -1,18 +1,17 @@
 ipn.neoteq.be {
   log
   errors
-  template IN SOA ipn.neoteq.be {
-    answer "{{ .Zone }} 60 IN SOA ns1.neoteq.be info.neoteq.be (1 3600 300 2419200 60)"
+  records {
+    @   60 IN SOA ns1.neoteq.be. info.neoteq.be. (1 3600 300 2419200 60)
+    @   3600 IN NS ns1.neoteq.be.
+    @   3600 IN NS ns2.neoteq.be.
+    @   CAA 0 issue letsencrypt.org
+    @   60 IN A 192.0.2.123
+    @   60 IN AAAA 2001:db8::123
+
+    $OPTION fallthrough
   }
-  template IN NS ipn.neoteq.be {
-    answer "ipn.neoteq.be. 3600 IN NS ns1.neoteq.be."
-    answer "ipn.neoteq.be. 3600 IN NS ns2.neoteq.be."
-    fallthrough
-  }
-  template IN CAA ipn.neoteq.be {
-    answer "ipn.neoteq.be. CAA 0 issue letsencrypt.org"
-    fallthrough
-  }
+
   azure STMN-Netzwerk:ipn.neoteq.be {
     tenant {$AZ_TENANT}
     client {$AZ_CLIENT}
@@ -28,10 +27,6 @@ ipn.neoteq.be {
     fallthrough
     ttl 86400
   }
-  forward . 127.0.0.1:5353
-}
-
-.:5353 {
   template ANY ANY {
     rcode NXDOMAIN
   }

@@ -5,6 +5,7 @@ go 1.24.2
 require (
 	github.com/coredns/coredns v1.12.2
 	github.com/damomurf/coredns-tailscale v0.3.16
+	github.com/neoteq-it/coredns-records v0.0.0-20250705172748-d97ed43b7596
 	github.com/neoteq-it/neoteqts4via6 v1.0.2
 )
 
@@ -60,6 +61,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sts v1.33.19 // indirect
 	github.com/aws/smithy-go v1.22.2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/caddyserver/caddy v1.0.5 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575 // indirect
 	github.com/coder/websocket v1.8.12 // indirect
