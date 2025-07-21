@@ -181,8 +181,6 @@ github.com/creachadair/taskgroup v0.13.2 h1:3KyqakBuFsm3KkXi/9XIb0QcA8tEzLHLgaoi
 github.com/creachadair/taskgroup v0.13.2/go.mod h1:i3V1Zx7H8RjwljUEeUWYT30Lmb9poewSb2XI1yTwD0g=
 github.com/creack/pty v1.1.23 h1:4M6+isWdcStXEf15G/RbrMPOQj1dZ7HPZCGwE4kOeP0=
 github.com/creack/pty v1.1.23/go.mod h1:08sCNb52WyoAwi2QDyzUCTgcvVFhUzewun7wtTfvcwE=
-github.com/damomurf/coredns-tailscale v0.3.16 h1:frhr7KTkQJU1grm+Da80x6/7mDu90jVvpXsLKIZhZiU=
-github.com/damomurf/coredns-tailscale v0.3.16/go.mod h1:DgiR/l+mRLCsmuD2x+SEM0F/qAdXqANKsFJdr6gnIQ4=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc h1:U9qPSI2PIWSS1VwoXQT9A3Wy9MM3WgvqSxFWenqJduM=
@@ -485,6 +483,8 @@ github.com/naoina/toml v0.1.1/go.mod h1:NBIhNtsFMo3G2szEBne+bO4gS192HuIYRqfvOWb4
 github.com/nbio/st v0.0.0-20140626010706-e9e8d9816f32/go.mod h1:9wM+0iRr9ahx58uYLpLIr5fm8diHn0JbqRycJi6w0Ms=
 github.com/neoteq-it/coredns-records v0.0.0-20250705172748-d97ed43b7596 h1:v6UVsMVFhS6fUiVaViL1SuM+SLGJERu9vTsU2W9V2YY=
 github.com/neoteq-it/coredns-records v0.0.0-20250705172748-d97ed43b7596/go.mod h1:KBCjoUmQWuEw1v9xXDEWRi4oeOi/ikIpcg865L6g5ok=
+github.com/neoteq-it/coredns-tailscale v0.0.0-20250721143344-1c58fd12c41c h1:zl2wZq9uKq3uTRnKOxjICL7Jl8P5Q0PBZ0eD274Mnjw=
+github.com/neoteq-it/coredns-tailscale v0.0.0-20250721143344-1c58fd12c41c/go.mod h1:vpcTp5RHzwZRqCKifE1VcuI7+jL600Lrn06j/TErndc=
 github.com/neoteq-it/neoteqts4via6 v1.0.7 h1:HczHb617E9yZKIip5xrM+w9YLHJHSBuVhaLQoAAqkmo=
 github.com/neoteq-it/neoteqts4via6 v1.0.7/go.mod h1:MbHbDykRWSmWPIgTp1iBR17YHRbv9V7gQnRRDJ44JGA=
 github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 h1:zYyBkD/k9seD2A7fsi6Oo2LfFZAehjjQMERAvZLEDnQ=
